@@ -13,8 +13,8 @@ end
     self.class.all << self
   end
   
-def create 
-      @@all < self.name
+def self.create 
+      @@all << self.name
       @name
 end
 
