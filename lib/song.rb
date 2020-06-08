@@ -34,7 +34,7 @@ end
 
 def self.find_by_name(name)
  @@all.select{|word| word == name}
-  
+  song
   
 end
 
