@@ -61,6 +61,9 @@ def self.new_from_filename (name)
   song
   @@all << song
  end
+ 
+ def self.destroy_all
+   @@all = []
    
 
 end
