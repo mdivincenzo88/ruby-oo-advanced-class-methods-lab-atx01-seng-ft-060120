@@ -45,7 +45,6 @@ end
 def self.alphabetical
   @@all.sort_by { |X| x.name}
 end
-end
   
 
 end
