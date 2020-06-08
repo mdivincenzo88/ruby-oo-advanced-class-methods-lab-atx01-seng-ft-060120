@@ -14,8 +14,7 @@ end
   end
   
 def self.create 
-      @@all << self.name
-      @name
+      @@all << self.new
 end
 
 end
