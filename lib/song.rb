@@ -20,12 +20,13 @@ def self.create
 def self.new_by_name (name)
   
   @song.name = name
- @@all << @song
-end
+ 
 
 def self.create_by_name(name)
   @song.name = name
   @song
+  @@all << @song
+end
 end
   
 
