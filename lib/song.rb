@@ -45,6 +45,7 @@ end
 def alphabetical
   @@all.sort
 end
+end
   
 
 end
