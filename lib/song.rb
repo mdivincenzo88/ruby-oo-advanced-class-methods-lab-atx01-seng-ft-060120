@@ -33,10 +33,8 @@ end
 
 
 def self.find_by_name(name)
-  song = self.new
-  song.name = name
- @@all << song
- song 
+ @@all.select
+  
   
 end
 
