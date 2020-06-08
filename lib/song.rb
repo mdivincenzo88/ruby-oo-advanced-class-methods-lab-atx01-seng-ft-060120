@@ -33,7 +33,7 @@ end
 
 
 def self.find_by_name(name)
- @@all.select{|word| word.name == name}
+ @@all.find{|word| word.name == name}
   end
 
   
