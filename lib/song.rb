@@ -64,6 +64,6 @@ def self.new_from_filename (name)
  
  def self.destroy_all
    @@all = []
-   
-
+ end
+ 
 end
