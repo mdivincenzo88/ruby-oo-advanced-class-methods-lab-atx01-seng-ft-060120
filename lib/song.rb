@@ -36,6 +36,10 @@ def self.find_by_name(name)
  @@all.find{|word| word.name == name}
   end
 
+def find_or_create_by_name(name)
+  if find_by_name(name) == nil 
+    return 
+
   
 
 end
