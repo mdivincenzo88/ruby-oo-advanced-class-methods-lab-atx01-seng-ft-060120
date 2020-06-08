@@ -48,7 +48,7 @@ def self.alphabetical
 end
 
 def self.new_from_filename (name)
-  song.name = 
+  song= self.new
   song.name = name
   song
  end
